@@ -135,7 +135,7 @@ class InteriorDesigner:
         self._analyze_depth_for_measurement(original_image)
 
         # 3. Settings based on Mode
-        num_steps = 20 # DPMSolver needs fewer steps (20 is plenty for high quality)
+        num_steps = 15 # Reduced from 20 for faster generation (still good quality)
         if self.is_turbo:
             num_steps = 6 # LCM is fast!
             guidance_scale = 1.0 # LCM needs low guidance
