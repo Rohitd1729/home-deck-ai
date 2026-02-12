@@ -67,7 +67,7 @@ Upload a photo of an empty room or existing space, select a design style (Modern
 
 #### **Base Model: Stable Diffusion 1.5**
 
-- **What it is**: A state-of-the-art text-to-image AI model
+- **What it is**: A state-of-the-art text-to-image and image-to-image AI model
 - **Specialization**: Fine-tuned with "Realistic Vision V6.0" for photorealistic outputs
 - **Training**: Trained on millions of interior design images
 - **Output**: High-quality, professional-grade visualizations
@@ -628,3 +628,4 @@ For technical questions, refer to the developer documentation in the project rep
 **Document Version**: 1.0  
 **Last Updated**: February 11, 2026  
 **Status**: Awaiting Client Approval
+
